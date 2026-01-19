@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import {
@@ -216,7 +217,7 @@ const techStack = [
 
 // Mapear ícones para cada categoria
 const getCategoryIcon = (title: string) => {
-  const icons: Record<string, JSX.Element> = {
+  const icons: Record<string, React.ReactElement> = {
     Frontend: <FaCode />,
     Backend: <FaServer />,
     Database: <FaDatabase />,

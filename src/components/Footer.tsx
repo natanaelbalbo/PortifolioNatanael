@@ -49,20 +49,6 @@ const SocialLink = styled.a`
   }
 `;
 
-const Copyright = styled.p`
-  color: ${({ theme }) => theme.colors.textMuted};
-  font-size: ${({ theme }) => theme.fontSizes.sm};
-  text-align: center;
-  display: flex;
-  align-items: center;
-  gap: ${({ theme }) => theme.spacing.xs};
-
-  svg {
-    color: ${({ theme }) => theme.colors.error};
-    animation: pulse 1.5s ease-in-out infinite;
-  }
-`;
-
 const FooterText = styled.p`
   color: ${({ theme }) => theme.colors.textSecondary};
   font-size: ${({ theme }) => theme.fontSizes.base};
@@ -70,8 +56,6 @@ const FooterText = styled.p`
 `;
 
 export const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
     <FooterContainer>
       <FooterContent>

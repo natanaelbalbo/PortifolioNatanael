@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt, FaCode } from 'react-icons/fa';
 import { SectionTitle } from '../components/SectionTitle';
 import { Card } from '../components/Card';
@@ -118,15 +117,6 @@ const ProjectTitle = styled.h3`
   }
 `;
 
-const ProjectPeriod = styled.span`
-  font-size: ${({ theme }) => theme.fontSizes.sm};
-  color: ${({ theme }) => theme.colors.textMuted};
-  white-space: nowrap;
-  display: flex;
-  align-items: center;
-  gap: ${({ theme }) => theme.spacing.xs};
-`;
-
 const ProjectDescription = styled.p`
   font-size: ${({ theme }) => theme.fontSizes.base};
   color: ${({ theme }) => theme.colors.textSecondary};
@@ -228,7 +218,6 @@ export const Projects = () => {
               <ProjectContent>
                 <ProjectHeader>
                   <ProjectTitle>{project.title}</ProjectTitle>
-                  <ProjectPeriod>{project.period}</ProjectPeriod>
                 </ProjectHeader>
 
                 <ProjectDescription>
