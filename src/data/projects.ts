@@ -25,7 +25,7 @@ export const projects: Project[] = [
       as páginas em build time, resultando em carregamento instantâneo. Implementa metadados dinâmicos
       para cada artigo, melhorando significativamente a indexação em buscadores e visibilidade orgânica.
       Aplica práticas modernas de CI/CD com pipeline automatizado via GitHub Actions, incluindo testes,
-      build e deploy contínuo na Vercel.
+      build e deploy contínuo na Vercel.`,
     technologies: [
       'Next.js 15',
       'React 19',
