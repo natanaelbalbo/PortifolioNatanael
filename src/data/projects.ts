@@ -23,8 +23,9 @@ export const projects: Project[] = [
     longDescription: `Blog desenvolvido durante o curso da EBAC utilizando Next.js 15 com App Router.
       A aplicação utiliza Server Components e Static Site Generation (SSG) para pré-renderizar todas
       as páginas em build time, resultando em carregamento instantâneo. Implementa metadados dinâmicos
-      para cada artigo, melhorando significativamente a indexação em buscadores. Deploy automatizado
-      via GitHub Actions.`,
+      para cada artigo, melhorando significativamente a indexação em buscadores e visibilidade orgânica.
+      Aplica práticas modernas de CI/CD com pipeline automatizado via GitHub Actions, incluindo testes,
+      build e deploy contínuo na Vercel.
     technologies: [
       'Next.js 15',
       'React 19',
@@ -41,7 +42,9 @@ export const projects: Project[] = [
       'Server Components reduzindo JavaScript no cliente',
       'SEO otimizado com Metadata API',
       'Rotas dinâmicas com generateStaticParams',
-      'CI/CD com GitHub Actions',
+      'Pipeline CI/CD completo com GitHub Actions',
+      'Versionamento semântico e Git Flow',
+      'Deploy contínuo na Vercel',
       'Dark mode automático',
     ],
   },
