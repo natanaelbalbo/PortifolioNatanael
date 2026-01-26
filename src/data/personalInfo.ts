@@ -4,7 +4,7 @@
 
 export const personalInfo = {
   name: 'Natanael Figueredo Balbo',
-  title: 'Desenvolvedor Full Stack Jr',
+  title: 'Desenvolvedor Full Stack',
   location: 'Maringá, Paraná',
   email: 'nfigueredobalbo@gmail.com',
   phone: '(44) 99763-7184',
