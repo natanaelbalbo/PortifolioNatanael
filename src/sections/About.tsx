@@ -260,13 +260,11 @@ export const About = () => {
             <AboutParagraph>{personalInfo.summary}</AboutParagraph>
 
             <AboutParagraph>
-              Atualmente cursando o 8º semestre de Engenharia de Software pela
-              Unicesumar, tenho sólida experiência no desenvolvimento de
-              aplicações completas, desde a concepção até o deploy em produção.
-              Minha trajetória profissional inclui passagem pela NCS Sistemas,
-              onde trabalhei com sistemas ERP e módulos fiscais, e atualmente
-              atuo na ROQT Data & IA, desenvolvendo soluções modernas e
-              escaláveis.
+              Tenho sólida experiência no desenvolvimento de aplicações
+              completas, desde a concepção até o deploy em produção. Minha
+              trajetória profissional inclui passagem pela NCS Sistemas, onde
+              trabalhei com sistemas ERP e módulos fiscais, e atualmente atuo na
+              ROQT Data & IA, desenvolvendo soluções modernas e escaláveis.
             </AboutParagraph>
 
             <AboutParagraph>
