@@ -17,6 +17,35 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: 'Todo List com Context API',
+    description:
+      'Gerenciador de tarefas com React avançado, Context API, custom hooks e otimização de performance.',
+    longDescription: `Aplicação de gerenciamento de tarefas desenvolvida durante o curso da EBAC aplicando
+      conceitos avançados do React. Utiliza Context API para gerenciamento de estado global, custom hooks
+      reutilizáveis (useLocalStorage, useInput) e técnicas de memoization (React.memo, useMemo, useCallback)
+      para otimização de performance. Persistência automática através de hook customizado integrado ao localStorage.`,
+    technologies: [
+      'React 18.2',
+      'Vite',
+      'Context API',
+      'JavaScript ES6+',
+      'CSS3',
+      'Custom Hooks',
+    ],
+    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800',
+    githubLink: 'https://github.com/natanaelbalbo/TodoList-EBAC',
+    liveLink: 'https://todo-list-ebac.vercel.app/',
+    highlights: [
+      'Context API para estado global',
+      'Custom Hooks (useLocalStorage, useInput)',
+      'Memoization com React.memo e useMemo',
+      'Filtros por status em tempo real',
+      'Estatísticas e progresso calculados',
+      'Performance otimizada sem re-renders desnecessários',
+    ],
+  },
+  {
+    id: 2,
     title: 'Blog Completo com Next.js',
     description:
       'PWA de blog moderno com Next.js 15, SSG e Server Components para máxima performance e SEO otimizado.',
@@ -49,7 +78,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Diário de Bordo PWA',
     description:
       'Progressive Web App para registro de atividades diárias com funcionamento offline completo e instalabilidade.',
@@ -75,35 +104,6 @@ export const projects: Project[] = [
       'Persistência local com LocalStorage',
       'Interface responsiva e touch-friendly',
       'BeforeInstallPrompt implementado',
-    ],
-  },
-  {
-    id: 3,
-    title: 'Todo List com Context API',
-    description:
-      'Gerenciador de tarefas com React avançado, Context API, custom hooks e otimização de performance.',
-    longDescription: `Aplicação de gerenciamento de tarefas desenvolvida durante o curso da EBAC aplicando
-      conceitos avançados do React. Utiliza Context API para gerenciamento de estado global, custom hooks
-      reutilizáveis (useLocalStorage, useInput) e técnicas de memoization (React.memo, useMemo, useCallback)
-      para otimização de performance. Persistência automática através de hook customizado integrado ao localStorage.`,
-    technologies: [
-      'React 18.2',
-      'Vite',
-      'Context API',
-      'JavaScript ES6+',
-      'CSS3',
-      'Custom Hooks',
-    ],
-    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800',
-    githubLink: 'https://github.com/natanaelbalbo/TodoList-EBAC',
-    liveLink: 'https://todo-list-ebac.vercel.app/',
-    highlights: [
-      'Context API para estado global',
-      'Custom Hooks (useLocalStorage, useInput)',
-      'Memoization com React.memo e useMemo',
-      'Filtros por status em tempo real',
-      'Estatísticas e progresso calculados',
-      'Performance otimizada sem re-renders desnecessários',
     ],
   },
 ];
