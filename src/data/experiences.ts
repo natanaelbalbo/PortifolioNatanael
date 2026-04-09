@@ -17,7 +17,7 @@ export const experiences: Experience[] = [
   {
     id: 1,
     company: 'ROQT Data & IA',
-    position: 'Desenvolvedor Full Stack Jr',
+    position: 'Desenvolvedor Full Stack',
     period: '02/2025 - Presente',
     location: 'Maringá, Paraná',
     current: true,
